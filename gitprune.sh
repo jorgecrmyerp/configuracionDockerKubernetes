@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-11-09 CONFIGURACION CLOUD"
+message="$(date)2022-11-09 ajustando cloud alumnos y cursos"
 fi
 
 start=`date +%s`
