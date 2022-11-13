@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-11-13 YA FUNCIONA GATEWAY CON CLOUD"
+message="$(date)2022-11-13 PTE TERMINAR REPOSITORIO"
 fi
 
 start=`date +%s`
