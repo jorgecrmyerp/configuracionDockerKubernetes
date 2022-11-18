@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-11-18 FUNCIONA GATEWAY CON DOCKER"
+message="$(date)2022-11-18 FUNCIONA ALUMNOS Y EMPIEZO CURSOS CON DOCKER"
 fi
 
 start=`date +%s`
