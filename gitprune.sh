@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-11-18 ++actuator"
+message="$(date)2022-11-18 por ahora ok,pte probar host.docker.internal"
 fi
 
 start=`date +%s`
