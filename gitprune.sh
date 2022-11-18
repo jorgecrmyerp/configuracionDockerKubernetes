@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-11-18 PROBANDO PROPERTIES,MODIFICADO DEV"
+message="$(date)2022-11-18 ++actuator"
 fi
 
 start=`date +%s`
