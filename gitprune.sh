@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-11-19 CAMBIADO OPENJDK EN DOCKER POR eclipse-temurin:11.0.17_8-jdk-alpine"
+message="$(date)2022-11-21 DOCKER COMPOSE CON TODOS LOS MICROSERVICIOS"
 fi
 
 start=`date +%s`
